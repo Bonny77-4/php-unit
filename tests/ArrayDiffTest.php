@@ -16,5 +16,6 @@ final class ArrayDiffTest extends TestCase
         $b = [1, 2, 3];
 
         $this->assertSame($a, $b);
+        $this->assertSame(count($a), count($b)); // === assertSameSize
     }
 }

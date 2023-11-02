@@ -15,7 +15,7 @@ final class Calculatrice
         return $a - $b;
     }
 
-    function division(int $a, int $b): float | string 
+    function division(int $a, int $b): float | string
     {
         if ($b === 0) {
             return "impossible de diviser par zero";
@@ -24,9 +24,7 @@ final class Calculatrice
         }
     }
 
-
-    function
-    multiplication(int $a, int $b): int
+    function multiplication(int $a, int $b): int
     {
         return $a * $b;
     }
